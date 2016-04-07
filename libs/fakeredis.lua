@@ -19,7 +19,7 @@ end
 
 assert(type(bit) == "table", "module for bitops not found")
 
---- default sleep
+--- default sleep 
 
 local default_sleep
 do
