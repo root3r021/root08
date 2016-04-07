@@ -1,8 +1,9 @@
-# [TeleSeed](https://telegram.me/TeleSeed)
+# [BlackPlus](https://telegram.me/Blackplus)
+New Bot For Manage Your SuperGroups.
+A Advanced Bot Based In Teleseed (Normal Groups)
 
-[![https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/SEEDTEAM/TeleSeed.svg)](https://gitter.im/SEEDTEAM/TeleSeed?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU General Public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**.
+* * *
+# [BlackPlus](https://telegram.me/Blackplus) Uses "Anticrash" & "Autolaunch" To Be Active All The Time
 # Features
 
 * **A powerful antispam system with custom sensitivity for each group**
@@ -18,7 +19,36 @@
 * **Group administration via private messages**
 * **Only mods, owner and admin can add bots in groups**
 * **Arabic lock**
-* **Lock TgService**
+* **Lock TGService**
+* **Lock Link**
+* **Lock Flood/Spam**
+* **Lock Persian**
+* **Lock Member**
+* **Lock Sticker**
+* **Lock Contacts**
+* **Public On|Off**
+* **Mute Audio**
+* **Mute Photo**
+* **Mute All**
+* **Mute Video**
+* **Mute Gifs**
+* **Mute Dacuments**
+* **Mute Text**
+* **Tagall**
+* **AntiCrash**
+* **AutoLaunch**
+* **Qr Code Maker**
+* **Kick By Reply**
+* **Sticker To Image**
+* **Image To Sticker**
+* **Text to voice (# Debuged)**
+* **Advanced ID Plugin**
+* **Set PassWord For SuperGroups/Groups**
+* **Show Your Uptime Bot**
+* **Intagram Plugin**
+* **Aparat Plugin**
+* **Text To Sticker Plugin**
+* **inv bot sudo in SuperGroups**
 * **Chat list**
 * **And more!**
 
@@ -26,14 +56,14 @@
 * * *
 
 ## Commands
-TeleSeed has several commands that are only usable at certain ranks.
+BlackPlus has several commands that are only usable at certain ranks.
 
 
 ## General Commands {#general_commands}
 | Command | Description |
 |:--------|:------------|
-| [#!/]id | Returns group/SuperGroup ID or user id in pm. |
-| [#!/]teleseed | Returns bot information. |
+| [#!/]id | Returns group/SuperGroup ID & more or user id in pm. |
+| [#!/]black | Returns bot information. |
 
 
 ## Private Message Commands {#privmsg_commands}
@@ -92,6 +122,17 @@ TeleSeed has several commands that are only usable at certain ranks.
 | [#!/]banlist | Returns group/SuperGroup banlist. | Y | Y |
 | [#!/]clean [rules<html>&#124;</html>about<html>&#124;</html>modlist<html>&#124;</html>mutelist] | Clears rules, about, modlist, or mutelist | Y | Y |
 | [#!/]del | Deletes a message by reply. | N | Y |
+| [#!/]tosticker Conv Photo To sticker | Y | Y |
+| [#!/]tophoto Conv sticker To photo | Y | Y |
+| [#!/]vc Conv text To voice | Y | Y |
+| [#!/]qr [your text|link... | Y | Y |
+| [#!/]tosticker Conv Photo To sticker | Y | Y |
+| [#!/]aparat [text] Search your text in aparat | Y | Y |
+| [#!/]tosticker Conv Photo To sticker | Y | Y |
+| [#!/]webshot [url]  | Y | Y |
+| [#!/]version show bot version | Y | Y |
+| [#!/]reqgp | Y | Y |
+| [#!/]black show bot info | Y | Y |
 | [#!/]res [username] | Returns users name and id by username. | Y | Y |
 | [#!/]log | Returns group logs.***In SuperGroups:*** Search for kick reasons using [#RTL<html>&#124;</html>#spam<html>&#124;</html>#lockmember] | Y | Y |
 
@@ -100,8 +141,6 @@ TeleSeed has several commands that are only usable at certain ranks.
 | Command | Description |   groups/SuperGroups? |  In private? |
 |:--------|:------------|:----------------------|:-------------|
 | [#!/]muteuser [username<html>&#124;</html>id<html>&#124;</html>reply] | Mute and unmute a user in chat.***If a muted user posts a message, the message is deleted automaically / only owners can mute / mods and owners can unmute*** |  | N |
-| [#!/]all | Returns all available information about current group. | Y | N |
-| [#!/]all [GroupID] | Returns all available information about group by GroupID. | Y | N |
 | [#!/]owners [GroupID] [kick<html>&#124;</html>ban<html>&#124;</html>unban] [UserID] | Kick, ban, or unban a user from a group by GroupID and UserID. | N | Y |
 | [#!/]owners [GroupID] clean  [modlist<html>&#124;</html>rules<html>&#124;</html>about] | Clear options by GroupID. | N | Y |
 | [#!/]owners [GroupID] setflood [value] | Set flood for a group by GroupID and a value [1-5]. | N | Y |
@@ -118,7 +157,7 @@ TeleSeed has several commands that are only usable at certain ranks.
 
 | Command | Description | Groups? | SuperGroups? | Realms? |
 |:--------|:------------|:--------|:-------------|:--------|
-| [#!/]creategroup [Name] | Create a group and add it to moderation.json. | Y | Y | Y |
+| [#!/]cgp [Name] | Create a group and add it to moderation.json. | Y | Y | Y |
 | [#!/]createrealm [Name] | Create a realm and remove it from moderation.json. | Y | Y | Y |
 | [#!/]add | Add a group to moderation.json. | Y | Y | Y |
 | [#!/]rem | Remove a group from moderation.json. | Y | Y | Y |
@@ -146,15 +185,11 @@ TeleSeed has several commands that are only usable at certain ranks.
 | [#!/]-support | deomote user from support. | Y | Y | Y |
 | [#!/]pm [UserID] <text> | Sends a private message to a user by UserID. | Y | Y | Y |
 | [#!/]import <GroupLink> | Bot joins a group by GroupLink. | Y | Y | Y |
-| [#!/]pmblock [UserID] | Block a user from bot private message and bot photo. | Y | Y | Y |
-| [#!/]pmunblock [UserID] | Unblock a user from bot private message and bot photo. | Y | Y | Y |
 | [#!/]markread [on<html>&#124;</html>off] | Toggle bot to doubble check or not doubble check messages. | Y | Y | Y |
-| [#!/]setbotphoto | Set bot photo. | Y | Y | Y |
 | [#!/]contactlist | Bot will generate a list of all it's contacts***and send it by private message of command sender  | Y | Y | Y |
 | [#!/]dialoglist | Bot will generate a list of all it's private message users***and send it by private message of command sender  | Y | Y | Y |
 | [#!/]delcontact | Delete bot contact. | Y | Y | Y |
 | [#!/]reload | Reloads all bot plugins | Y | Y | Y |
-| [#!/]updateid | Adds long_id to moderation data for groups. | Y | Y | Y |
 | [#!/]!bc [GroupID] [text] | This command will send text to [GroupID]| Y | Y | Y |
 | [#!/]leave | Bot will leave that group and can only be re-invited by an admin with bot phone number | Y | Y | Y |
 | [#!/]mp | (Mod Promote) Set user as a mod of supergroup. **TESTING** | N | Y | N |
@@ -166,7 +201,6 @@ TeleSeed has several commands that are only usable at certain ranks.
 |:--------|:--------|:-------------|---------|
 | [#!/]addadmin [id<html>&#124;</html>username] | Set a user as bot admin. | Y | Y | Y |
 | [#!/]removeadmin [id<html>&#124;</html>username] | Remove a user from bot admin. | Y | Y | Y |
-| [#!/]sync_gbans | Sync your GBans with official @TeleSeed | Y | Y | Y |
 
 
 ## Settings {#settings}
@@ -230,7 +264,7 @@ Each higher status inherits the privileges of the lower status.
 
 ```sh
 # Install dependencies.
-# Tested on Ubuntu 14.04. For other OSs, check out https://github.com/yagop/telegram-bot/wiki/Installation
+# Tested on Ubuntu 14.04. For other OSs
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 
 # Let's install the bot.
@@ -257,11 +291,7 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
-    YourID
+Your ID
   }
 ```
 Then restart the bot.
@@ -273,47 +303,26 @@ Create a realm using the `!createrealm` command.
 **Creating a LOG SuperGroup**
 	-For GBan Log
 
-	1. Create a group using the `!creategroup` command.
-	2. Add two members or bots, then use `#Tosuper` to convert to a SuperSroup.
+	1. Create a group using the `!cgp` command.
+	2. Add two members or bots, then use `#Upchat` to convert to a SuperSroup.
 	3. Use the `#addlog` command and your ***LOG SuperGroup(s)*** will be set.
 	Note: you can set multiple Log SuperGroups
 
-* * *
-
-# Support and development
-
-Check out this [tutorial by Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
-
-**Do not contact us** in private for support.
-Join our bot development group by sending `/join 1047524697` to [@TeleSeed](https://telegram.me/TeleSeed)
-
-# Special thanks to
-[@seyedan25](https://telegram.me/seyedan25)
-
-For managing [@teleseed](https://telegram.me/TeleSeed) on Telegram.
-
-[@Vamptacus](https://telegram.me/Vamptacus)
-
-For graphic designs.
-
-[topkecleon](https://github.com/topkecleon)
-
-[Juan Potato](https://github.com/JuanPotato)
 
 * * *
 
 # Our team!
 
-[Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
+[MehdiHS](https://github.com/mehdi-hs) ([Telegram](https://telegram.me/MehdiHS))
 
-[I M /-\ N](https://github.com/imandaneshi) ([Telegram](https://telegram.me/imandaneshi))
+[YflQw](https://github.com/Mehdi-HS) ([Telegram](https://telegram.me/YflQw))
 
-[Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
+[Alireza NiGht](https://github.com/mehdi-hs) ([Telegram](https://telegram.me/ye_adam_mamoli))
 
-[Rondoozle](https://github.com/Rondoozle) ([Telegram](https://telegram.me/POTUS))
+[Surena](https://github.com/mehdi-hs) ([Telegram](https://telegram.me/mr_surena))
 
-### Our Telegram channels:
+###  Telegram channel :
 
-English: [@TeleSeedCH](https://telegram.me/teleseedch)
+[@Black_CH](https://telegram.me/Black_CH)
 
-Persian: [@IranSeed](https://telegram.me/iranseed)
+
