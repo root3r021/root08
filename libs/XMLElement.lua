@@ -11,7 +11,7 @@ local mt
 XMLElement.new = function(lom)
 	return setmetatable({lom=lom or {}}, mt)
 end
-
+ 
 local function filter(filtery_thing, lom)
 	filtery_thing=filtery_thing or '*'
 	for i, thing in ipairs(type(filtery_thing)=='table' and filtery_thing or {filtery_thing}) do
