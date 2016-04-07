@@ -5,7 +5,7 @@ local redis = {
 }
 
 -- The following line is used for backwards compatibility in order to keep the `Redis`
--- global module name. Using `Redis` is now deprecated so you should explicitly assign
+-- global module name. Using `Redis` is now deprecated so you should explicitly assign 
 -- the module to a local variable when requiring it: `local redis = require('redis')`.
 Redis = redis
 
