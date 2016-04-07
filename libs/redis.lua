@@ -6,7 +6,7 @@ local params = {
   port = 6379,
 }
 
--- Overwrite HGETALL
+-- Overwrite HGETALL 
 Redis.commands.hgetall = Redis.command('hgetall', {
   response = function(reply, command, ...)
     local new_reply = { }
