@@ -3,7 +3,7 @@ do
 
 local mimetype = {}
 
--- TODO: Add more?
+-- TODO: Add more? 
 local types = {
   ["text/html"] = "html",
   ["text/css"] = "css",
