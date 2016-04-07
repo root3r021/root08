@@ -148,17 +148,17 @@ BlackPlus has several commands that are only usable at certain ranks.
 | [#!/]banlist | Returns group/SuperGroup banlist. | Y | Y |
 | [#!/]clean [rules<html>&#124;</html>about<html>&#124;</html>modlist<html>&#124;</html>mutelist] | Clears rules, about, modlist, or mutelist | Y | Y |
 | [#!/]del | Deletes a message by reply. | N | Y |
-| [#!/]tosticker Conv Photo To sticker | Y | Y |
-| [#!/]tophoto Conv sticker To photo | Y | Y |
-| [#!/]vc Conv text To voice | Y | Y |
-| [#!/]qr [your text|link... | Y | Y |
-| [#!/]tosticker Conv Photo To sticker | Y | Y |
-| [#!/]aparat [text] Search your text in aparat | Y | Y |
-| [#!/]tosticker Conv Photo To sticker | Y | Y |
-| [#!/]webshot [url]  | Y | Y |
-| [#!/]version show bot version | Y | Y |
-| [#!/]reqgp | Y | Y |
-| [#!/]black show bot info | Y | Y |
+| [#!/]tosticker | Conv Photo To sticker | Y | Y |
+| [#!/]tophoto | Conv sticker To photo | Y | Y |
+| [#!/]vc | Conv text To voice | Y | Y |
+| [#!/]qr [your text|link...] |  | Y | Y |
+| [#!/]tosticker | Conv Photo To sticker | Y | Y |
+| [#!/]aparat [text] | Search your text in aparat | Y | Y |
+| [#!/]tosticker | Conv Photo To sticker | Y | Y |
+| [#!/]webshot [url] |  | Y | Y |
+| [#!/]version | show bot version | Y | Y |
+| [#!/]reqgp | | Y | Y |
+| [#!/]black | show bot info | Y | Y |
 | [#!/]res [username] | Returns users name and id by username. | Y | Y |
 | [#!/]log | Returns group logs.***In SuperGroups:*** Search for kick reasons using [#RTL<html>&#124;</html>#spam<html>&#124;</html>#lockmember] | Y | Y |
 
