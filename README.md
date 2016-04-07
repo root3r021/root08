@@ -16,6 +16,7 @@ sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgr
 سپس دستور زیر را بزنید...
 
 cd BlackPlus 
+
 دقت کنید که در دستور بالا حرف سی و پی رو کپتال بنویسید که اررور نده
 بعد این کد رو بزنید
 
