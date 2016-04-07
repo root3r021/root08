@@ -4,6 +4,21 @@ A Advanced Bot Based In Teleseed (Normal Groups)
 
 * * *
 # [BlackPlus](https://telegram.me/Blackplus) Uses "Anticrash" & "Autolaunch" To Be Active All The Time
+# آموزش نصب سروس
+1. کد زیر را در ترمینال وارد کنید.
+
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/mehdi-hs/BlackPlus.git -b supergroups && cd BlackPlus && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+
+2.بعد از چند دقیقه ربات از شما شماره ای میگیره که روبات روی اون نصب شه...
+بعد از وارد کردن شماره و وارد کردن کد در صورتی ربات در اکانت مورد نظر نصب شد ترمینال را ببندید و دستور زیر را بزنید...
+
+screen bash BlackPlus.sh
+
+بعد از وارد کردن این کد عدد 1 رو بنویسید و اینتر بزنید
+بعد از چند ثانیه ربات ران میشه
+
+# قسمت دوم این آموزش برای فعال کردن آنتی کرش هست و از این به بعد اگر ربات آف شد مرحله 2 رو انجام دهید
+* * *
 # Features
 
 * **A powerful antispam system with custom sensitivity for each group**
