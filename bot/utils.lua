@@ -59,7 +59,7 @@ function string:split(sep)
   return fields
 end
 
--- DEPRECATED
+-- DEPRECATED 
 function string.trim(s)
   print("string.trim(s) is DEPRECATED use string:trim() instead")
   return s:gsub("^%s*(.-)%s*$", "%1")
