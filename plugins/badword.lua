@@ -1,11 +1,4 @@
---[[
 
-#
-#     @GPMOD
-#   @Dragon_Born
-#      
-
-]]
 local function addword(msg, name)
     local hash = 'chat:'..msg.to.id..':badword'
     redis:hset(hash, name, 'newword')
