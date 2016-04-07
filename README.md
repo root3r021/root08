@@ -157,7 +157,7 @@ BlackPlus has several commands that are only usable at certain ranks.
 | [#!/]tosticker | Conv Photo To sticker | Y | Y |
 | [#!/]webshot [url] |  | Y | Y |
 | [#!/]version | show bot version | Y | Y |
-| [#!/]reqgp | | Y | Y |
+| [#!/]reqgp | send Request to admin for create group | Y | Y |
 | [#!/]black | show bot info | Y | Y |
 | [#!/]res [username] | Returns users name and id by username. | Y | Y |
 | [#!/]log | Returns group logs.***In SuperGroups:*** Search for kick reasons using [#RTL<html>&#124;</html>#spam<html>&#124;</html>#lockmember] | Y | Y |
