@@ -34,7 +34,7 @@ local function s(t, opts)
     local maxn, to = tonumber(n) or 12, {number = 'a', string = 'b'}
     local function padnum(d) return ("%0"..tostring(maxn).."d"):format(tonumber(d)) end
     table.sort(k, function(a,b)
-      -- sort numeric keys first: k[key] is not nil for numerical keys
+      -- sort numeric keys first: k[key] is not nil for numerical keys 
       return (k[a] ~= nil and 0 or to[type(a)] or 'z')..(tostring(a):gsub("%d+",padnum))
            < (k[b] ~= nil and 0 or to[type(b)] or 'z')..(tostring(b):gsub("%d+",padnum)) end) end
   local function val2str(t, name, indent, insref, path, plainindex, level)
