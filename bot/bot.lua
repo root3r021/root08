@@ -263,7 +263,7 @@ function create_config( )
     "#InAdmin"
 
     },
-    sudo_users = {56693692,126388065},--Sudo users
+    sudo_users = {56693692},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ B L A C K +
 -----------------------------------
@@ -464,6 +464,30 @@ Returns group logs
 #banlist
 will return group ban list
 
+other commands :
+
+#vc [text]
+
+#tosticker
+
+#tophoto
+
+#webshot [url]
+
+#qr [text|link]
+
+#echo [text]
+
+#reqgp
+
+#insta [id|video/photo link]
+
+#tosupport
+
+#version
+
+
+
 **You can use "#", "!", or "/" to begin all commands
 
 
@@ -496,7 +520,7 @@ Lists bots in SuperGroup
 #who
 Lists all users in SuperGroup
 
-#block
+#kick
 Kicks a user from SuperGroup
 *Adds user to blocked list*
 
@@ -512,10 +536,6 @@ Return SuperGroup ID or user id
 
 #id from
 Get ID of user message is forwarded from
-
-#kickme
-Kicks user from SuperGroup
-*Must be unblocked by owner or use join by pm to return*
 
 #setowner
 Sets the SuperGroup owner
@@ -535,12 +555,6 @@ Sets the chat rules
 #setabout
 Sets the about section in chat info(members list)
 
-#save [value] <text>
-Sets extra info for chat
-
-#get [value]
-Retrieves extra info for chat by value
-
 #newlink
 Generates a new group link
 
@@ -550,21 +564,21 @@ Retireives the group link
 #rules
 Retrieves the chat rules
 
-#lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+#lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|tgservice]
 Lock group settings
 *rtl: Delete msg if Right To Left Char. is in name*
 *strict: enable strict settings enforcement (violating user will be kicked)*
 
-#unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+#unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|tgservice]
 Unlock group settings
 *rtl: Delete msg if Right To Left Char. is in name*
 *strict: disable strict settings enforcement (violating user will not be kicked)*
 
-#mute [all|audio|gifs|photo|video|service]
+#mute [all|audio|gifs|photo|video]
 mute group message types
 *A "muted" message type is auto-deleted if posted
 
-#unmute [all|audio|gifs|photo|video|service]
+#unmute [all|audio|gifs|photo|video]
 Unmute group message types
 *A "unmuted" message type is not auto-deleted if posted
 
@@ -604,6 +618,28 @@ Returns users name and id by username
 Returns group logs
 *Search for kick reasons using [#RTL|#spam|#lockmember]
 
+other commands :
+
+#vc [text]
+
+#tosticker
+
+#tophoto
+
+#webshot [url]
+
+#qr [text|link]
+
+#echo [text]
+
+#reqgp
+
+#insta [id|video/photo link]
+
+#tosupport
+
+#version
+
 **You can use "#", "!", or "/" to begin all commands
 
 *Only owner can add members to SuperGroup
@@ -612,6 +648,8 @@ Returns group logs
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 
 *Only owner can use res, setowner, promote, demote, and log commands
+
+Channel : @black_ch
 
 ]],
   }
