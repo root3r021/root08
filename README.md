@@ -286,20 +286,6 @@ Each higher status inherits the privileges of the lower status.
 
 * * *
 
-# Installation
-
-```sh
-# Install dependencies.
-# Tested on Ubuntu 14.04. For other OSs
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
-
-# Let's install the bot.
-cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git -b supergroups
-cd TeleSeed
-chmod +x launch.sh
-./launch.sh install
-./launch.sh # Enter a phone number & confirmation code.
 ```
 ### One command
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
