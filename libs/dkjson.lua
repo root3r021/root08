@@ -7,7 +7,7 @@
 
 David Kolf's JSON module for Lua 5.1/5.2
 ========================================
-*Version 2.4*
+*Version 2.4* 
 In the default configuration this module writes no global values, not even
 the module table. Import it using
     json = require ("dkjson")
