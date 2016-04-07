@@ -48,6 +48,7 @@ A Advanced Bot Based In Teleseed (Normal Groups)
 * **Intagram Plugin**
 * **Aparat Plugin**
 * **Text To Sticker Plugin**
+* **Send Group request**
 * **inv bot sudo in SuperGroups**
 * **Chat list**
 * **And more!**
