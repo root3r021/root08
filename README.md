@@ -19,7 +19,7 @@ cd BlackPlus
 
 بعد این کد رو بزنید
 
-screen bash BlackPlus.sh
+screen bash blackplus.sh
 
 بعد از وارد کردن این کد عدد 1 رو بنویسید و اینتر بزنید
 بعد از چند ثانیه ربات ران میشه
