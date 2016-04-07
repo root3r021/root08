@@ -331,5 +331,3 @@ Create a realm using the `!createrealm` command.
 ###  Telegram channel :
 
 [@Black_CH](https://telegram.me/Black_CH)
-
-
