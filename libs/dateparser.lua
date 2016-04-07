@@ -23,7 +23,7 @@ local format_func = setmetatable({}, {__mode='v'})  --format functions
 ---register a date format parsing function
 function dateparser.register_format(format_name, format_function)
 	if type(format_name)~="string" or type(format_function)~='function' then return nil, "improper arguments, can't register format handler" end
-
+ 
 	local found
 	for i, f in ipairs(format_func) do --for ordering
 		if f==format_function then
