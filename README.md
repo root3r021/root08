@@ -1,4 +1,4 @@
-# [BlackPlus](https;//telegram.me/blackplus) > [GitHub](https://GitHub.com/Mehdi-HS/BlackPlus/tree/supergroups) | [Site](BlackPlus.ir) |  [Channel](https://telegram.me/black_ch)
+# [BlackPlus](https;//telegram.me/blackplus) > [GitHub](https://GitHub.com/Mehdi-HS/BlackPlus) | [Site](BlackPlus.ir) |  [Channel](https://telegram.me/black_ch)
 * * *
 *New Bot For Manage Your SuperGroups.
 
@@ -9,7 +9,7 @@
 # آموزش نصب سروس
 1. کد زیر را در ترمینال وارد کنید.
 
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/mehdi-hs/BlackPlus.git -b supergroups && cd BlackPlus && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/mehdi-hs/BlackPlus.git && cd BlackPlus && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 
 2.بعد از چند دقیقه ربات از شما شماره ای میگیره که روبات روی اون نصب شه...
 بعد از وارد کردن شماره و وارد کردن کد در صورتی ربات در اکانت مورد نظر نصب شد ترمینال را ببندید و ترمینال جدید باز کنید
@@ -28,6 +28,17 @@ screen bash blackplus.sh
 # قسمت دوم این آموزش برای فعال کردن آنتی کرش هست و از این به بعد اگر ربات آف شد مرحله 2 رو انجام دهید
 
 برای سودو کردن خودتون هم در پوشه دیتا فیل کافیگ رو ادیت کنید و در قسمت سودو یوزر ایدی عددی خودتون رو بنویسید
+
+هر هفته میتوانید با دستور های زیر جدید ترین پلاگین ها و آپدیت هارو دریافت کنید.
+
+اول در ترمینال دستور زیر را تایپ کنید
+
+cd BlackPlus
+
+سپس اسن دستور را وارد کنید
+
+git pull
+
 * * *
 # Features
 
@@ -295,7 +306,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/mehdi-hs/BlackPlus.git -b supergroups
+git clone https://github.com/mehdi-hs/BlackPlus.git
 cd BlackPlus
 chmod +x launch.sh
 ./launch.sh install
@@ -305,7 +316,7 @@ chmod +x launch.sh
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/mehdi-hs/BlackPlus.git -b supergroups && cd BlackPlus && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/mehdi-hs/BlackPlus.git && cd BlackPlus && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
