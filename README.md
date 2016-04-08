@@ -35,7 +35,7 @@ screen bash blackplus.sh
 
 cd BlackPlus
 
-سپس اسن دستور را وارد کنید
+سپس این دستور را وارد کنید.
 
 git pull
 
