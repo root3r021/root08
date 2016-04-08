@@ -256,7 +256,6 @@ function create_config( )
     "inGroups",
     "qrCode",
     "groupRequest_V2_Test",
-    "groups_SuperGroups",
     "inAdmin"
 
     },
