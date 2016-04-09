@@ -13,7 +13,7 @@ update() {
 install_luarocks() {
   git clone https://github.com/keplerproject/luarocks.git
   cd luarocks
-  git checkout tags/v2.2.1 # Current stable
+  git checkout tags/v2.3.0-rc2 # Release Candidate
 
   PREFIX="$THIS_DIR/.luarocks"
 
@@ -43,6 +43,20 @@ install_rocks() {
     then echo "Error. Exiting."; exit $RET;
   fi
 
+  ./.luarocks/bin/luarocks install luafilesystem
+  RET=$?; if [ $RET -ne 0 ];
+    then echo "Error. Exiting."; exit $RET;
+  fi
+
+  ./.luarocks/bin/luarocks install lub
+  RET=$?; if [ $RET -ne 0 ];
+    then echo "Error. Exiting."; exit $RET;
+  fi
+
+  ./.luarocks/bin/luarocks install luaexpat
+  RET=$?; if [ $RET -ne 0 ];
+    then echo "Error. Exiting."; exit $RET;
+  fi
 
   ./.luarocks/bin/luarocks install redis-lua
   RET=$?; if [ $RET -ne 0 ];
@@ -112,14 +126,16 @@ else
     exit 1
   fi
   
-  #Adding some color. By @MehdiHS
+  chmod 777 blackplus.sh
+  
+  #Adding some color. By @iicc1 :D
    echo -e "\033[38;5;208m"
-   echo -e "      > Channel : @Black_CH                     "
-   echo -e "      > Developer : @MehdiHS                    "
-   echo -e "      > Bot ID : @BlackPlus                     "
-   echo -e "      > Github : GitHub.com/Mehdi-HS/BlackPlus  "
+   echo -e "     > Channel : @Black_CH                        "
+   echo -e "     > Developer : @MehdiHS                       "
+   echo -e "     > Bot ID : @BlackPlus                        "
+   echo -e "     > Github : GitHub.com/Mehdi-HS/BlackPlus     "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-
+  ./config_fix.sh
   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/bot.lua -l 1 -E $@
 fi
