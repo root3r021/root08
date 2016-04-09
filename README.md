@@ -21,6 +21,10 @@ cd BlackPlus
 بعد این کد رو بزنید
 
 tmux new-session -s script "bash blackplus.sh -t"
+(برای استفاده از آنتی کرش در سی9 از دستور زیر استفاده کنید)
+
+bash blackplus.sh
+
 
 بعد از چند ثانیه ربات ران میشه
 
