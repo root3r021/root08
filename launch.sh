@@ -102,7 +102,7 @@ install() {
   ./configure && make
 
   RET=$?; if [ $RET -ne 0 ]; then
-    echo "Error. Eiting."; exit $RET;
+    echo "Error. Exiting."; exit $RET;
   fi
   cd ..
   install_luarocks
