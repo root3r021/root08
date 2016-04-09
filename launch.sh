@@ -102,7 +102,7 @@ install() {
   ./configure && make
 
   RET=$?; if [ $RET -ne 0 ]; then
-    echo "Error. Exiting."; exit $RET;
+    echo "Error. Eiting."; exit $RET;
   fi
   cd ..
   install_luarocks
@@ -128,7 +128,7 @@ else
   
   chmod 777 blackplus.sh
   
-  #Adding some color. By @iicc1 :D
+  #Adding some color. By @MehdiHS
    echo -e "\033[38;5;208m"
    echo -e "     > Channel : @Black_CH                        "
    echo -e "     > Developer : @MehdiHS                       "
@@ -136,6 +136,5 @@ else
    echo -e "     > Github : GitHub.com/Mehdi-HS/BlackPlus     "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-  ./config_fix.sh
   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/bot.lua -l 1 -E $@
 fi
