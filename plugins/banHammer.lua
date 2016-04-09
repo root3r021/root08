@@ -124,10 +124,10 @@ local function kick_ban_res(extra, success, result)
         redis:srem(hash, member_id)
         return 'Done\n User Unbanned'
       elseif get_cmd == 'banall' then
-        send_large_msg(receiver, '> ['..user_id..' ] Banned for all @BlackPlus Groups/SuperGroups! (Globally banned)')
+        send_large_msg(receiver, '> ['..user_id..' ] Banned for all Groups/SuperGroups! (Globally banned)')
 		banall_user(member_id)
       elseif get_cmd == 'unbanall' then
-        send_large_msg(receiver, '> ['..user_id..' ] Unbanned for all @BlackPlus Groups/SuperGroups! (Unglobally banned)')
+        send_large_msg(receiver, '> ['..user_id..' ] Unbanned for all Groups/SuperGroups! (Unglobally banned)')
 	    unbanall_user(member_id)
     end
 end
@@ -288,7 +288,7 @@ end
          	return false
         end
         	banall_user(targetuser)
-       		return '> ['..user_id..' ] Banned for all @BlackPlus Groups/SuperGroups! (Globally banned)'
+       		return '> ['..user_id..' ] Banned for all Groups/SuperGroups! (Globally banned)'
      else
 	local cbres_extra = {
 		chat_id = msg.to.id,
@@ -308,7 +308,7 @@ end
           	return false
         end
        		unbanall_user(user_id)
-        	return '> ['..user_id..' ] Unbanned for all @BlackPlus Groups/SuperGroups! (Unglobally banned)'
+        	return '> ['..user_id..' ] Unbanned for all Groups/SuperGroups! (Unglobally banned)'
     else
 		local cbres_extra = {
 			chat_id = msg.to.id,
