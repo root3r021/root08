@@ -247,6 +247,7 @@ function create_config( )
     "toSticker",
     "toVoice",
     "ver",
+    "start",
     "whitelist",
     "plist",
     "inSuper",
