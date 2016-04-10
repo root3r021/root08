@@ -238,7 +238,6 @@ function create_config( )
     "inPm",
     "autoleave_Super",
     "black",
-    "echo",
     "terminal",
     "sudoers",
     "time",
