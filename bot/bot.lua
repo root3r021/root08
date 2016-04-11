@@ -244,7 +244,6 @@ function create_config( )
     "toPhoto",
     "toPhoto_Txt_img",
     "toSticker",
-    "groupLimiter",
     "toVoice",
     "ver",
     "start",
