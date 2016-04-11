@@ -1,4 +1,11 @@
-local filename='data/expire.lua'
+-- THIS PLUG HAVE ANY BUGS
+
+-- DON'T USE THIS PLUGINS!!
+
+-- By @MehdiHS
+
+
+--[[local filename='data/expire.lua'
  local cronned = load_from_file(filename)
  
  local function save_cron(msg, text,date)
@@ -71,4 +78,4 @@ local filename='data/expire.lua'
    run = run,
    cron = cron
  }
- 
+ ]]
