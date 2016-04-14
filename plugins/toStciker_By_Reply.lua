@@ -20,7 +20,7 @@ local function run(msg,matches)
       		if redis:set("sticker:photo", "waiting") then
       		end
   	end
-      if matches[1] == "toimage" then
+      if matches[1] == "photo" then
     	redis:get("sticker:photo")  
         load_document(msg.reply_id, toimage, msg)
     end
