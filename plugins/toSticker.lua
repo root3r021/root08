@@ -1,7 +1,7 @@
 local function tosticker(msg, success, result)
   local receiver = get_receiver(msg)
   if success then
-    local file = '/root/blackplus/data/stickers/'..msg.from.id..'.webp'
+    local file = '/root/BlackPlus/data/stickers/'..msg.from.id..'.webp'
     print('File downloaded to:', result)
     os.rename(result, file)
     print('File moved to:', file)
@@ -22,14 +22,14 @@ local function run(msg,matches)
         end
        end
     end
-    if matches[1] == "tosticker" then
+    if matches[1] == "sticker" then
      redis:set("photo:sticker", "waiting")
      return 'Please send your photo now!'
     end
 end
 return {
   patterns = {
- "^[#!/](tosticker)$",
+ "^[#!/](sticker)$",
  "%[(photo)%]",
   },
   run = run,
