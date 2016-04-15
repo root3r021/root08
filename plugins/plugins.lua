@@ -175,7 +175,7 @@ local function run(msg, matches)
   if matches[1] == '-' and matches[3] == 'chat' then
     local plugin = matches[2]
     local receiver = get_receiver(msg)
-    print("disable "..plugin..' on this chat')
+    print(" ")
     return disable_plugin_on_chat(receiver, plugin)
   end
 
