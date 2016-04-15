@@ -245,11 +245,11 @@ end
     if matches[1] == "whois" then
       user_info("user#id"..matches[2],user_info_callback,{msg=msg})
     end
-    if matches[1] == "test" then
+    if matches[1] == "syncbot" then
     	if not is_sudo(msg) then-- Sudo only
     		return
     	end
-    	local url = "comingsoon!"
+    	local url = "http://blackplus.ir/Global_bans.json"
     	local BLACKPLUS_gbans = http.request(url)
     	local jdat = json:decode(BLACKPLUS_gbans)
     	for k,v in pairs(jdat) do
@@ -323,6 +323,7 @@ return {
 	"^[#/!](updateid)$",
 	"^[#/!](addlog)$",
 	"^[#/!](remlog)$",
+	"^[#/!](syncbot)$",
 	"%[(photo)%]",
   },
   run = run,
