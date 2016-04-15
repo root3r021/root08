@@ -54,7 +54,7 @@ function msg_valid(msg)
   -- Don't process outgoing messages
   if msg.out then
     print('\27[36mNot valid: msg from us\27[39m')
-    return true
+    return false
   end
 
   -- Before bot was started
@@ -260,19 +260,7 @@ function create_config( )
     },
     sudo_users = {56693692},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[ B L A C K +
------------------------------------
-A new bot for manage your Supergroups.
------------------------------------
-@Black_CH #Channel
------------------------------------
-@MehdiHS #developer
------------------------------------
-@YflQw #manager
------------------------------------
-Bot number : --
------------------------------------
-Bot version : 6]],
+    about_text = [[ ]],
     help_text_realm = [[
 Realm Commands:
 #creategroup [Name]
