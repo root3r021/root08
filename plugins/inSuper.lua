@@ -2069,7 +2069,7 @@ return {
 	"^[#!/]([Mm]utelist)$",
     "[#!/](mp) (.*)",
 	"[#!/](md) (.*)",
-    "^([Hh][Tt][Tt][Pp][Ss]://[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/[Jj][Oo][Ii][Nn][Cc][Hh][Aa][Tt]/%S+)$",
+    "([Hh][Tt][Tt][Pp][Ss]://[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/[Jj][Oo][Ii][Nn][Cc][Hh][Aa][Tt]/%S+)",
 	"msg.to.peer_id",
 	"%[(document)%]",
 	"%[(photo)%]",
