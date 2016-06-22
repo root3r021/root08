@@ -172,7 +172,7 @@ function is_sudo(msg)
   end
   return var
 end
-
+ 
 -- Returns the name of the sender
 function get_name(msg)
   local name = msg.from.first_name
