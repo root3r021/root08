@@ -2,8 +2,6 @@
 * * *
 *New Bot For Manage Your SuperGroups.
 
-*A Advanced Bot Based In Teleseed (Super Groups)
-
 * * *
 # [BlackPlus](https://telegram.me/Blackplus) Uses "Anticrash" & "Autolaunch" To Be Active All The Time
 # آموزش نصب سروس
