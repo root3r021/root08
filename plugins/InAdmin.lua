@@ -235,7 +235,6 @@ end
 	if matches[1] == 'reload' then
 		receiver = get_receiver(msg)
 		reload_plugins(true)
-		post_msg(receiver, "Reloaded!", ok_cb, false)
 		return reply_msg(msg.id, "#BOT Reloaded By |"..msg.from.id.."| \n#All Plugins Reloaded! \n#All Changes Succesfully Installed.", ok_cb, false)
 	end
 	if matches[1] == 'updateid' then
