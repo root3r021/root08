@@ -353,12 +353,6 @@ Create a realm using the `!createrealm` command.
 
 [MehdiHS](https://github.com/mehdi-hs) ([Telegram](https://telegram.me/MehdiHS))
 
-[YflQw](https://github.com/Mehdi-HS) ([Telegram](https://telegram.me/YflQw))
-
-[Alireza NiGht](https://github.com/mehdi-hs) ([Telegram](https://telegram.me/ye_adam_mamoli))
-
-[Surena](https://github.com/mehdi-hs) ([Telegram](https://telegram.me/mr_surena))
-
 ###  Telegram channel :
 
 [@Black_CH](https://telegram.me/Black_CH)
