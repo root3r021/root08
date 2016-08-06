@@ -6,9 +6,10 @@ function run(msg, matches)
 if not is_sudo(msg) then
 return 
 end
-text = io.popen("git pull "):read('*all')
-  return text
   reload_plugins(true)
+text = io.popen("git pull "):read('*all')
+text = '\nJoin My Channel > @Black_Ch'
+  return text
 end
 return {
   patterns = {
